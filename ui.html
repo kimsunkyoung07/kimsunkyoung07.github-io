@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ui</title>
+    <style>
+         @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css");
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        body {
+            font-family: 'Pretendard';
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        header {
+            width: 1140px;
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        #logo {
+            margin-left: 520PX;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav {
+            width: 100%;
+            height: 45px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #menus{
+            float: right;
+        }
+
+        #main_menu {
+            margin-top: 10px;
+            font-size: 20px;
+            color: black;
+        }
+
+        #main_menu li {
+            font-size: 20px;
+            display: inline;
+            margin-left: 258px;
+        }
+
+        #banner {
+            width: 100%;
+        }
+
+        #intro {
+            margin: 90px auto;
+            text-align: center;
+            font-size: 25px;
+            line-height: 160%;
+            font-weight: 10px;
+        }
+        
+
+        section{
+            float: left;
+            padding-left: 460px;
+            width: 400px;
+            margin-bottom: 10px;
+        }
+
+        aside {
+            float: left;
+            padding: 30px;
+            width: 515px;
+        }
+
+        aside li {
+            line-height: 40px;
+            font-size: 20px;
+
+        }
+
+        aside h3 {
+            font-size: 30px;
+        }
+
+       #li {
+        text-align: left;
+       }
+
+        h2 {
+            text-decoration:overline
+        }
+
+        #img {
+            margin: 0 auto;
+            width: 980px;
+            margin-bottom: 50px;
+        }
+
+        footer {
+
+            width: 100%;
+            height: 100px;
+            background-color:rgb(74, 74, 74);
+            line-height: 25px;
+        }
+
+        #footer_box {
+            width: 1700px;
+            height: 100px;
+            margin: 0 auto;
+            font-size: 12px;
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 23px 0 0 0;
+        }
+
+        #address {
+            text-align: right;
+            float: right;
+            width: 1000px;
+            margin: 15px 0 0 0;
+            color: rgb(177, 177, 177);
+        }
+
+        a:link, a:visited{
+            margin: 0 auto;
+            background-color: none;
+            color: black;
+            padding: 0;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active{
+            background-color: none;
+            color: #109ceb;
+        }
+
+        #click {
+            color: rgb(174, 174, 174);
+        }
+
+        .color {
+            color:  #109ceb;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo1.png" width="100px" height="50px" id="logo"></a>
+    </header>
+
+    <nav id="menus">
+        <ul id="main_menu">
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="ui.html" id="click">UI&UX</a></li>
+            <li><a href="two.html">2D Graphic</a></li>
+            <li><a href="three.html">3D Graphic</a></li>
+            <li><a href="motion.html">Motion</a></li>
+        </ul>
+    </nav>
+
+    <div id="banner"><img src="img/ui_B.png"  ></div>
+
+    <div id="intro"><h2  class="color">UI&UX</h2> <br>
+        <p>고등학교 2학년 (18살) 시각디자인 수업에서 진행한 <br>
+            <b>EBSi 어플 리디자인</b>
+        </p></div>
+    <div class="clear"></div>
+
+    <section>
+        <img src="img/uiux_p.jpg" width="400px" height="486px">
+    </section>
+
+    <aside>
+        <h3>EBSi</h3>
+        <br>
+        <p>
+            EBSi 고교강의 <br>
+            고등학교 때 자주 이용하던 어플 중 하나인 EBSi 고교강의 라는 어플의 리디자인을 진행하였습니다.
+            <br>
+            <br>
+            로딩화면부터 메인화면, 강의목록, 동영상 화면까지 전체적인 어플을 디자인 했습니다.
+            사용 툴은 XD를 위주로 사용했으며, 이터렉션과 다양한 아이콘까지 직접 디자인했습니다.
+            <br>
+            <br>
+            옆에 사용된 사진은 리디자인 한 것에 목업을 진행하였으며, <br>
+            내용 설명과 사용된 폰트, 컬러칩들을 정리해 놓은 판넬 입니다.
+        </p>
+    </aside>
+    <div class="clear"></div>
+
+    <div id="img">
+        <img src="img/ui_2.png" height="150px" width="980px">
+    </div>
+
+    <div class="clear"></div>
+
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="img/logo_footer.png" width="110px" height="55px">
+            </div>
+            <ul id="address">
+                <li>email : 22261015@kaywon.ac.kr</li>
+                <li>16038 경기도 의왕시 계원대학로 66(내손동) 계원예술대학교 대표전화 1899-5823 팩스 031-424-7509 E-mail kaywon@kaywon.ac.kr</li>
+                <li>©2023 12 08 kimsunlyoung</li>
+            </ul>
+    </footer>
+</body>
+</html>
